@@ -41,7 +41,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 320px;
-  padding: 40px;
+  padding: 80px;
+}
+
+.sect-one > img {
+  max-height: 300px;
 }
 
 .sect-one > .hero > h1 {
@@ -49,13 +53,58 @@ body {
   font-weight: bolder;
   color: #F9FAF8;
 }
-.info > img {
-  max-width: 100px;
-  max-height: 100px;
+
+.sect-two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 64px;
 }
 
-.sect-one > img {
-  max-height: 300px;
+.sect-two > h1 {
+  padding: 16px;
+}
+
+.info-icons {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info {
+  max-width: 150px;
+}
+
+.info > p {
+  margin-top: 0;
+}
+
+.info > img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 16px;
+}
+
+.sect-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 64px 20%;
+
+}
+
+.sect-three > p {
+  max-width: 50%;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.sect-three > h3 {
+  margin-left: 500px;
 }
 
 button {
